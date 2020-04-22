@@ -1,6 +1,6 @@
 // Data will be saved here as an array of objects
 var friends = [
-  ({
+  {
     name: "Ahmed",
     photo:
       "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
@@ -95,8 +95,10 @@ var friends = [
     name: "Mike Smith",
     photo: "adfasddfasdfd",
     scores: ["4", "3", "4", "5", "5", "5", "4", "5", "3", "1"],
-  }),
+  },
 ];
 
 // Compatiability is based of the total difference which is the difference on each answer
 // Once found show the result on a modul pop-up
+
+module.exports = friends;
