@@ -14,4 +14,12 @@ router.get("/api/friends", function (req, res) {
 // /api/friends POST
 // Will handle the incoming survey results and handle the compatibility logic
 
+router.post("/api/friends", function (req, res) {
+  //   console.log(req);
+  //   console.log(req.body);
+  var newFriend = req.body;
+  console.log(newFriend);
+  friends.push(newFriend);
+});
+
 module.exports = router;
